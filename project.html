@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Геомакс</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css?_v=20220428190414">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.1/swiper-bundle.min.css?_v=20220428190414">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css?_v=20220428190414">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20220428190414">
+        <link rel="stylesheet" href="css/style.min.css?_v=20220428190414" />
+    </head>
+    <body>
+        <div class="slider-cursor"><img src="img/slider-cursor.png" alt=""></div>
+        <header>
+            <section class="header">
+                <div class="header__container container">
+                    <div class="header__row">
+                        <a href="" class="header__logo"><img src="img/logo-bw.svg" alt=""></a>
+                        <a href="" class="header__btn btn">
+                            <span class="btn__circle"></span>
+                            <span class="btn__text">Меню</span>
+                            <span class="btn__icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__menu menu">
+                    <div class="menu__container container">
+                        <div class="menu__row">
+                            <ul>
+                                <li><a href="">Главная</a></li>
+                                <li><a href="">Услуги</a></li>
+                                <li><a href="">О компании</a></li>
+                                <li><a href="">Проекты</a></li>
+                                <li><a href="">Вакансии</a></li>
+                                <li><a href="">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="project">
+                <div class="project__container container">
+                    <div class="project__top">
+                        <div class="project__slider project-slider swiper">
+                            <div class="project-slider__wrapper swiper-wrapper">
+                                <div class="project-slider__slide swiper-slide" style="background-image: url(img/slider.jpg);" data-cursor></div>
+                                <div class="project-slider__slide swiper-slide" style="background-image: url(img/slider.jpg);" data-cursor></div>
+                                <div class="project-slider__slide swiper-slide" style="background-image: url(img/slider.jpg);" data-cursor></div>
+                                <div class="project-slider__slide swiper-slide" style="background-image: url(img/slider.jpg);" data-cursor></div>
+                            </div>
+                            <div class="project-slider__pagination"></div>
+                        </div>
+                        <div class="project__info project-info">
+                            <div class="project-info__top">
+                                <a href="" class="project-info__prev mask"></a>
+                                <p class="project-info__name">г. Санкт-Петербург, ул. Гастелло, д. 7</p>
+                                <a href="" class="project-info__next mask"></a>
+                            </div>
+                            <div class="project-info__bottom">
+                                <div class="project-info__list">
+                                    <div class="project-info__row">
+                                        <span>Объект</span>
+                                        <span>ЖК «Виктория Плаза»</span>
+                                    </div>
+                                    <div class="project-info__row">
+                                        <span>Заказчик</span>
+                                        <span>ООО «Сэтл Сити»</span>
+                                    </div>
+                                    <div class="project-info__row">
+                                        <span>Глубина котлована</span>
+                                        <span>9,6 м</span>
+                                    </div>
+                                    <div class="project-info__row">
+                                        <span>Объем подземной автостоянки</span>
+                                        <span>23 м</span>
+                                    </div>
+                                </div>
+                                <p class="project-info__desc">Здание представляет собой многоквартирный жилой дом со встроено коммерческими помещениями и подземной автостоянкой высотой объема 23 м. Здание состоит из 6 жилых, 1 коммерческого этажей и 2 подземных этажей автостоянки, глубина котлована 9,6 м.</p>
+                                <a href="" class="project-info__video btn">
+                                    <span class="btn__circle"></span>
+                                    <span class="btn__arrow mask"></span>
+                                    <span class="btn__text">Видео с объекта</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__bottom">
+                        <h2 class="project__title text-animation">
+                            <div class="text-animation__row">
+                                <div class="text-animation__container">Нашими специалистами реализовано</div>
+                            </div>
+                        </h2>
+                        <div class="project__steps project-steps swiper">
+                            <div class="project-steps__wrapper swiper-wrapper">
+                                <div class="project-steps__slide swiper-slide">
+                                    <span class="circle"></span>
+                                    <p>Работа в программном комплексе Plaxis 3D</p>
+                                    <span>01</span>
+                                </div>
+                                <div class="project-steps__slide swiper-slide">
+                                    <span class="circle"></span>
+                                    <p>Расчет вариантов устройства ограждения глубокого котлована</p>
+                                    <span>02</span>
+                                </div>
+                                <div class="project-steps__slide swiper-slide">
+                                    <span class="circle"></span>
+                                    <p>Оценка влияния устройства котлована на окружающую застройку</p>
+                                    <span>03</span>
+                                </div>
+                                <div class="project-steps__slide swiper-slide">
+                                    <span class="circle"></span>
+                                    <p>Сбор нагрузок в программном комплексе Tower</p>
+                                    <span>04</span>
+                                </div>
+                                <div class="project-steps__slide swiper-slide">
+                                    <span class="circle"></span>
+                                    <p>Работа в программном комплексе Plaxis 3D</p>
+                                    <span>05</span>
+                                </div>
+                                <div class="project-steps__slide swiper-slide">
+                                    <span class="circle"></span>
+                                    <p>Расчет вариантов устройства ограждения глубокого котлована</p>
+                                    <span>06</span>
+                                </div>
+                                <div class="project-steps__slide swiper-slide">
+                                    <span class="circle"></span>
+                                    <p>Оценка влияния устройства котлована на окружающую застройку</p>
+                                    <span>07</span>
+                                </div>
+                                <div class="project-steps__slide swiper-slide">
+                                    <span class="circle"></span>
+                                    <p>Работа в программном комплексе Plaxis 3D</p>
+                                    <span>08</span>
+                                </div>
+                                <div class="project-steps__slide swiper-slide">
+                                    <span class="circle"></span>
+                                    <p>Расчет вариантов устройства ограждения глубокого котлована</p>
+                                    <span>09</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="other-project">
+                <div class="other-project__container container">
+                    <div class="other-project__top">
+                        <h2 class="other-project__title text-animation">
+                            <div class="text-animation__row">
+                                <div class="text-animation__container">Другие наши проекты</div>
+                            </div>
+                        </h2>
+                        <a href="" class="other-project__btn btn">
+                            <span class="btn__circle"></span>
+                            <span class="btn__arrow mask"></span>
+                            <span class="btn__text">Перейти к проектам</span>
+                        </a>
+                    </div>
+                    <div class="other-project__slider swiper">
+                        <div class="other-project__wrapper swiper-wrapper" data-cursor>
+                            <a href="" class="other-project__slide swiper-slide" data-fancybox data-cursor>
+                                <img src="img/project_1.jpg" alt="" class="other-project__img">
+                                <div class="other-project__info">
+                                    <h3>ЖК «Пять звезд»</h3>
+                                    <p>Здание представляет собой многоквартирный жилой дом</p>
+                                    <span>2021 год</span>
+                                </div>
+                            </a>
+                            <a href="" class="other-project__slide swiper-slide" data-cursor>
+                                <img src="img/project_2.jpg" alt="" class="other-project__img">
+                                <div class="other-project__info">
+                                    <h3>ЖК «Кремлевские звезды»</h3>
+                                    <p>Здание представляет собой многоквартирный жилой дом</p>
+                                    <span>2019 год</span>
+                                </div>
+                            </a>
+                            <a href="" class="other-project__slide swiper-slide" data-cursor>
+                                <img src="img/project_3.jpg" alt="" class="other-project__img">
+                                <div class="other-project__info">
+                                    <h3>Лахта-Центр</h3>
+                                    <p>Здание представляет собой многоквартирный жилой дом</p>
+                                    <span>2018 год</span>
+                                </div>
+                            </a>
+                            <a href="" class="other-project__slide swiper-slide" data-cursor>
+                                <img src="img/project_4.jpg" alt="" class="other-project__img">
+                                <div class="other-project__info">
+                                    <h3>Лахта-Центр</h3>
+                                    <p>Здание представляет собой многоквартирный жилой дом</p>
+                                    <span>2018 год</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer__container container">
+                    <div class="footer__row">
+                        <div class="footer__column">
+                            <h6 class="footer__name">Меню сайта</h6>
+                            <div class="footer__menu">
+                                <a href="" class="footer__link footer__link--simple">Главная</a>
+                                <a href="" class="footer__link footer__link--simple">Услуги</a>
+                                <a href="" class="footer__link footer__link--simple">О компании</a>
+                                <a href="" class="footer__link footer__link--simple">Проекты</a>
+                                <a href="" class="footer__link footer__link--simple">Вакансии</a>
+                                <a href="" class="footer__link footer__link--simple">Контакты</a>
+                            </div>
+                        </div>
+                        <div class="footer__column">
+                            <h6 class="footer__name">Адрес</h6>
+                            <div class="footer__menu">
+                                <p class="footer__link footer__link--address">194017<br>г. Санкт-Петербург<br>ул. Дрезденская<br>д. 16А, лит. А.<br>Офис 35</p>
+                            </div>
+                        </div>
+                        <div class="footer__column">
+                            <h6 class="footer__name">Контакты</h6>
+                            <div class="footer__menu">
+                                <a href="tel:+7(812)293-93-93" class="footer__link footer__link--phone">Телефон: +7 (812) 293-93-93</a>
+                                <a href="mailto:info@geomax-spb.ru" class="footer__link footer__link--email">E-mail: info@geomax-spb.ru</a>
+                                <p class="footer__link">Режим работы: Пн-Пт: с 09:00 до 18:00</p>
+                            </div>
+                        </div>
+                        <div class="footer__column">
+                            <p class="footer__rights">© ООО «ГЕОМАКС» 2022.<br>Все права защищены.</p>
+                            <a href="" class="footer__develop">Разработано в<img src="img/rosait_logo.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20220428190414"></script>
+        <script defer src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js?_v=20220428190414'></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220428190414"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.1/swiper-bundle.min.js?_v=20220428190414"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js?_v=20220428190414"></script>
+        <script defer src="js/app.min.js?_v=20220428190414"></script>
+    </body>
+</html>
